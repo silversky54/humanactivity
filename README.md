@@ -12,9 +12,9 @@ summ_dataset_info.md: code book of the data and variables included in the summ_a
 
 run_analysis.R follows the following general process:
 It reads the original Human Activiy Datasets for Test and Training which are each split into 3 files: 
-##1. A 561-feature vector with time and frequency domain variables. 
-##2. Its activity label. 
-##3. An identifier of the subject who carried out the experiment.
+1. A 561-feature vector with time and frequency domain variables. 
+2. Its activity label. 
+3. An identifier of the subject who carried out the experiment.
 
 In the script then combines all 3 datasets and then merges the Test and Training data sets. From this new dataset we select the variables that represent a mean or standard deviation and reshape the dataset to convert the feature columns which combine feature and variable data into a new tidy dataset.
 Then we we calculate the average of the mean and std variables per subject, activity and feature. The result is stored in a new dataset named "summ_activity_avg.txt".
