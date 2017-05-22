@@ -1,0 +1,8 @@
+The summ_activity_avg.txt is a dataset that is the result of the script run_analysis.R which calculates the average of 
+the mean and std per activity, subject and feature. 
+
+ activity_name: chr variable with the human activity name
+ subject      : int variable that represents the subject that performed the activity 
+ feature      : chr variable which is the name of the feature 
+ mean         : num  this is the average of all the means for a given activity, subject and feature
+ std          : num  this is the average of all the standard deviations for a given activity, subject and feature
